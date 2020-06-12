@@ -9,8 +9,12 @@ export const proxyReducer: ProxyReducer = (state, { type, payload }) => {
       const { id, content } = payload
       return s => {
         // In case this is a new list
-        s.todoList = s.todoList || []
-        s.todoMap = s.todoMap || {}
+        if (!s.todoList) {
+          s.todoList = []
+        }
+        if (!s.todoMap) {
+          s.todoMap = {}
+        }
 
         s.todoList.push(id)
         s.todoMap[id] = { id, content, completed: false }
