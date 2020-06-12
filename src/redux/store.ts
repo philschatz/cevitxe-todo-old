@@ -13,7 +13,7 @@ const middlewares = [logger]
 
 const urls = process.env.REACT_APP_SIGNAL_SERVERS
   ? process.env.REACT_APP_SIGNAL_SERVERS.split(',')
-  : undefined
+  : ['ws://cevitxe-signal.herokuapp.com']
 
 export const storeManager = new StoreManager<State>({
   databaseName: 'todo',
