@@ -38,31 +38,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-
-    <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('serviceWorker.js').then(function(reg) {
-          reg.onupdatefound = function() {
-            var installingWorker = reg.installing;
-            installingWorker.onstatechange = function() {
-              switch (installingWorker.state) {
-                case 'installed':
-                  if (navigator.serviceWorker.controller) {
-                    console.log('New or updated content is available!');
-                  } else {
-                    console.log('Service worker is installed!');
-                  }
-                  break;
-                case 'redundant':
-                  console.error('The installing service worker became redundant.');
-                  break;
-              }
-            };
-          };
-        }).catch(function(e) {
-          console.error('Error during service worker registration:', e);
-        });
-      }
-    </script>
   </body>
 </html>
