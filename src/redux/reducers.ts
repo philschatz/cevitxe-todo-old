@@ -7,9 +7,7 @@ export const proxyReducer: ProxyReducer = (state, { type, payload }) => {
   switch (type) {
     case ADD_TODO: {
       const { id, content } = payload
-      console.log(`Queueing Adding ${id} ${content}`)
       return s => {
-        console.log(`Actually Adding ${id} ${content}`)
         s.todoList.push(id)
         s.todoMap[id] = { id, content, completed: false }
       }

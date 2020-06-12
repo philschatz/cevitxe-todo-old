@@ -30,7 +30,7 @@
     "uuid": "3"
   },
   "scripts": {
-    "start": "REACT_APP_SIGNAL_SERVERS=ws://cevitxe-signal.herokuapp.com react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
