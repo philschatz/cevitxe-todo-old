@@ -4,8 +4,8 @@
   "private": true,
   "dependencies": {
     "@emotion/core": "10",
-    "@philschatz/cevitxe": "^0.4.7",
-    "@philschatz/cevitxe-toolbar": "^0.4.7",
+    "@philschatz/cevitxe": "^0.5.4",
+    "@philschatz/cevitxe-toolbar": "^0.5.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",

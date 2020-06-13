@@ -1383,39 +1383,40 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@philschatz/cevitxe-signal-client@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-signal-client/-/cevitxe-signal-client-0.4.7.tgz#72cf98a197a84bc512eaf68875505a09c63923dc"
-  integrity sha512-xC/Egw1ejxKxh+dhtNAUDcusLJ3qGwSSSER5vzNtsQqGR/x81ZIBOWALPzbOAAuVLfR/FhXoEX98oxDJTpUO+A==
+"@philschatz/cevitxe-signal-client@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-signal-client/-/cevitxe-signal-client-0.5.4.tgz#38b0305fcd4d9186e7bcfe2b48e37bec1c23075b"
+  integrity sha512-X+Q4rGPfUoE+m9Rm3UGsW0NbmKXZquHi73K0+DNSjSl5ySo8p3We+h1WP2ymj+MK8uvGLfw7k+OZggB22S8f2A==
   dependencies:
+    cevitxe-types "^0.4.2"
     debug "4"
     ts-node "8"
     ws "7"
 
-"@philschatz/cevitxe-storage-abstract@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-storage-abstract/-/cevitxe-storage-abstract-0.4.7.tgz#0cce04c404d5fb5a9d7415d6c17e24dd375eb400"
-  integrity sha512-BjP4O81JKDl9b7qE3ntXRafLek7S8AOK6CUAJQHduYPRJFoCs5hT8xFnL6faqnfIJjtc0tMXgsu9j+04A5CzvA==
+"@philschatz/cevitxe-storage-abstract@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-storage-abstract/-/cevitxe-storage-abstract-0.5.4.tgz#32953ed43057e6609a4377c8a538265c83257976"
+  integrity sha512-drCBnI2JvUWjGAytARHF/62iN5apsJcsvYh8IxiFsGGNubWcv8aLoSZn2Eguk3bloeAOEqG8YXhVCcklKaHGrA==
 
-"@philschatz/cevitxe-storage-indexeddb@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-storage-indexeddb/-/cevitxe-storage-indexeddb-0.4.7.tgz#71ef2af8d4765f6f1d3bc479ad074f7e99e2b3c9"
-  integrity sha512-I1aQIM0vtm9caJmOllMuL2K401cWA9E+tGoftGgeeSGGh3ffhWbwRVeG8V+EDgg7/BuKXlGu1vxDgrmN+DsLVA==
+"@philschatz/cevitxe-storage-indexeddb@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-storage-indexeddb/-/cevitxe-storage-indexeddb-0.5.4.tgz#f376461a3d589bc42067f60ec059818f9325c42a"
+  integrity sha512-ulrQRR0lANwIP99yZqLVS/m2YjDQy7HPQswoixyV5yXG+g4zmdiwNqT35fqzHLDp2QXvAFWB7VFo+SpKGA/GKg==
   dependencies:
-    "@philschatz/cevitxe-signal-client" "^0.4.7"
-    "@philschatz/cevitxe-storage-abstract" "^0.4.7"
+    "@philschatz/cevitxe-signal-client" "^0.5.4"
+    "@philschatz/cevitxe-storage-abstract" "^0.5.4"
     automerge "0"
     debug "4"
     idb herbcaudill/idb#add-with-async-ittr-cjs-d-ts
 
-"@philschatz/cevitxe-toolbar@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-toolbar/-/cevitxe-toolbar-0.4.7.tgz#c12f6301e10f29f1df2293c2cfb1b9f4e55b5262"
-  integrity sha512-EUFNOcCQOsqEOnckiSCtXLOQ1lIcU/DC87EAUkDyfxhpSF2UyMEzv2kq0LJzGWgvH+fYMMfgrELMAjhftKZ4bA==
+"@philschatz/cevitxe-toolbar@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-toolbar/-/cevitxe-toolbar-0.5.4.tgz#5f7997eb7c7feee0cba125cbcbcee3f3f341588f"
+  integrity sha512-T9/opmQs6lObL3nDwgnIyBjMLE4181fMlnlLp96jqx7i0HLc/pjknij8Pyg4ZsfnzHfnuvEzD+qOwigCt4Ys/w==
   dependencies:
     "@emotion/core" "10"
-    "@philschatz/cevitxe" "^0.4.7"
-    "@philschatz/cevitxe-types" "^0.4.7"
+    "@philschatz/cevitxe" "^0.5.4"
+    "@philschatz/cevitxe-types" "^0.5.4"
     formik "^2.0.1-rc.13"
     friendly-words "1"
     react "16"
@@ -1424,20 +1425,20 @@
     use-persisted-state "0"
     use-query-params "0"
 
-"@philschatz/cevitxe-types@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-types/-/cevitxe-types-0.4.7.tgz#5f47ff38606e3b3ed35e1887cc986329858abb1c"
-  integrity sha512-8bUTqZdHf+P0MNRNiRU4/5st16mrEDtHIOmJAf41N6hJ3NTuqudxMSQDBDVfempCcAd2OtfDDt7+QWAJUwpv7Q==
+"@philschatz/cevitxe-types@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe-types/-/cevitxe-types-0.5.4.tgz#7d6e927784863fa39c3df186dca446f9a831ad74"
+  integrity sha512-/35E8BI/23F0tDsu871EFX8/gOhsMBe47Q1833Dn3Nfg2pJ2JvvhYppqZEvudiAFmdxxefTTpfPfieXR+PF43w==
 
-"@philschatz/cevitxe@^0.4.7":
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe/-/cevitxe-0.4.7.tgz#cac22dbb2a0a65d30518f36a0008bc4e3e39299f"
-  integrity sha512-7McFKqLlkQxJG/aG5EnaZu3GluyYGPVdLG66YkZ4O2PZydoPCD+nJf8wFxLi7P7YViZI19jAtVYD4uzWcXPLuw==
+"@philschatz/cevitxe@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@philschatz/cevitxe/-/cevitxe-0.5.4.tgz#2ed47a422d3a5423b39996b801e1b32f7f9700a4"
+  integrity sha512-3YZKWRC6zNZ4rbEY2cOvz/z3TxxNSyiYj4fndKVYsdJV+3R2v4i1MODmGbq2Uug1be9wlJ9h/Aizx4bN47gUDA==
   dependencies:
-    "@philschatz/cevitxe-signal-client" "^0.4.7"
-    "@philschatz/cevitxe-storage-abstract" "^0.4.7"
-    "@philschatz/cevitxe-storage-indexeddb" "^0.4.7"
-    "@philschatz/cevitxe-types" "^0.4.7"
+    "@philschatz/cevitxe-signal-client" "^0.5.4"
+    "@philschatz/cevitxe-storage-abstract" "^0.5.4"
+    "@philschatz/cevitxe-storage-indexeddb" "^0.5.4"
+    "@philschatz/cevitxe-types" "^0.5.4"
     "@stablelib/base64" "1"
     "@stablelib/utf8" "1"
     automerge "0"
@@ -2992,6 +2993,11 @@ caseless@~0.12.0:
   version "0.12.0"
   resolved "https://registry.yarnpkg.com/caseless/-/caseless-0.12.0.tgz#1b681c21ff84033c826543090689420d187151dc"
   integrity sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+
+cevitxe-types@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/cevitxe-types/-/cevitxe-types-0.4.2.tgz#b2e1df4c1eb68d1a5488296f2e9ed906544cfd76"
+  integrity sha512-U/HIaGlI5bX2CGD9JMoSFWRbFlrlIeCOWbA80UoQGJ6MU1D3Z39ZSQk+AfN+MMtQgp4+F5NntFDmOx1JSTWs1Q==
 
 chalk@2.4.2, chalk@^2.0.0, chalk@^2.0.1, chalk@^2.1.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -5442,7 +5448,7 @@ icss-utils@^4.0.0, icss-utils@^4.1.1:
   dependencies:
     postcss "^7.0.14"
 
-idb@herbcaudill/idb#add-with-async-ittr-cjs-d-ts:
+"idb@github:herbcaudill/idb#add-with-async-ittr-cjs-d-ts":
   version "4.0.5"
   resolved "https://codeload.github.com/herbcaudill/idb/tar.gz/7dc1cd4c38291a04e4e9f2103c362684d2a21ac7"
 
