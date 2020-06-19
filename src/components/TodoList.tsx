@@ -9,7 +9,7 @@ export const TodoList = () => {
 
   return (
     <ul className="todo-list">
-      {todos && todos.map(todo => <Todo key={`todo-${todo.id}`} {...todo} />)}
+      {todos && [...todos].reverse().map(todo => <Todo key={`todo-${todo.id}`} {...todo} />)}
     </ul>
   )
 }
