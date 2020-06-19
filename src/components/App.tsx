@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Provider } from 'react-redux'
 import Redux from 'redux'
-import { Toolbar } from '@philschatz/cevitxe-toolbar'
+import { Toolbar } from './Toolbar'
 
 import { Todos } from '../components'
 import { storeManager } from '../redux/store'

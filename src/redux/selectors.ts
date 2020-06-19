@@ -25,8 +25,6 @@ export const getFilteredTodos = (filter: VisibilityFilter) => (state: State) => 
     case VisibilityFilter.COMPLETED:
       return allTodos.filter(todo => todo.completed)
     default:
-      console.log(VisibilityFilter.ALL)
-      console.log(filter)
       return allTodos
       // throw new Error(`Unknown visibility filter '${filter}'`)
   }
